@@ -9,6 +9,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import CursorEffect from "./components/CursorEffect";
+import Home from "./pages/Home"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <Home/>
         <About />
         <Projects />
         <Skills />

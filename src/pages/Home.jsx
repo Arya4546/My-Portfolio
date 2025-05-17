@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import avatar from "../assets/avatar.jpg"; // Change path if needed
+
 
 const Home = () => {
   return (
@@ -11,15 +11,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        {/* Avatar Image */}
-        <motion.img
-          src={avatar}
-          alt="Arya Deep Singh"
-          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-regal-700"
-          initial={{ scale: 0.8 }}
-          animate={{ scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-        />
+       
 
         {/* Text Content */}
         <div className="max-w-xl text-center md:text-left">

@@ -11,9 +11,10 @@ import {
 } from "react-icons/fa";
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
-import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
 import project5 from "../assets/project5.jpg";
+import project6 from "../assets/project6.jpg";
+import project7 from "../assets/project7.jpg"; 
 
 const projects = [
   {
@@ -33,17 +34,18 @@ const projects = [
       "Enterprise-grade CRM with parent access, CRUD, email & WhatsApp integration, role-based dashboard built using React, Express.js & SQL Server.",
   },
   {
-    title: "The Clean Express",
-    image: project3,
-    tech: [FaHtml5, FaCss3Alt, FaJs],
-    url: "https://thecleanexpress.in",
+    title: "School Management Software",
+    image: project7,
+    tech: [FaReact, FaNodeJs, FaDatabase],
+    url: "https://schools.pragyacode.com/",
     description:
-      "Static website built for a laundry service company using HTML, CSS, and JavaScript. Optimized for speed and SEO.",
+      "Multi-school management software with separate logins for teachers, students, staff, and admins. Built using React, Tailwind CSS, Node.js, Express.js, and SQL Server.",
   },
   {
     title: "Hospital Management System",
     image: project4,
     tech: [FaHtml5, FaCss3Alt, FaJs, FaDatabase],
+    url : "https://github.com/Arya4546/hospital-management-system",
     description:
       "Multi-role CRUD system for cancer hospitals, supporting admins, doctors, patients. Node.js backend with Express & SQL Server.",
   },
@@ -54,6 +56,14 @@ const projects = [
     url: "https://admin.purnimacoldstore.co.in",
     description:
       "Helped cold store track items across rooms with multi-login access, WhatsApp integration, CRUD and analytics dashboard.",
+  },
+  {
+    title: "Let's Chat - Real Time Chat & Video Call",
+    image: project6,
+    tech: [FaReact, FaNodeJs, FaDatabase],
+    url: "https://let-s-chat-six.vercel.app",
+    description:
+      "Full-featured real-time chat app with message reactions, friend system, video calls, built using MERN, Tailwind CSS, and DaisyUI. Fully responsive across all devices.",
   },
 ];
 

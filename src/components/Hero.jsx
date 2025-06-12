@@ -4,9 +4,8 @@ import avatar from "../assets/avatar.jpg";
 
 const Hero = () => {
   return (
-    
-    <section id="hero" className="min-h-screen bg-regal-900 flex items-center justify-center relative pt-20">
-      <div className="max-w-7xl w-full px-6 flex flex-col md:flex-row items-center justify-between">
+    <section id="hero" className="min-h-screen bg-[#0b1120] flex items-center justify-center relative pt-20">
+      <div className="max-w-7xl w-full px-6 flex flex-col md:flex-row items-center justify-between z-10">
         <motion.div
           className="text-center md:text-left mb-10 md:mb-0"
           initial={{ opacity: 0, y: 50 }}
@@ -14,14 +13,14 @@ const Hero = () => {
           transition={{ duration: 1.2 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Hi, I'm <span className="text-regal-400">Arya Deep Singh</span>
+            Hi, I'm <span className="text-blue-400">Arya Deep Singh</span>
           </h1>
-          <p className="text-regal-300 text-lg md:text-xl max-w-xl">
+          <p className="text-blue-300 text-lg md:text-xl max-w-xl">
             Full Stack Web Developer | React • Node.js • SQL Server • Tailwind CSS | 3D Enthusiast
           </p>
         </motion.div>
         <motion.div
-          className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-regal-500"
+          className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-blue-500"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1 }}
@@ -32,8 +31,8 @@ const Hero = () => {
 
       {/* Background floating elements */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 w-40 h-40 bg-gradient-to-br from-regal-600 to-regal-800 opacity-20 rounded-full animate-pulse" />
-        <div className="absolute bottom-10 right-10 w-32 h-32 bg-gradient-to-br from-regal-500 to-regal-700 opacity-25 rounded-full animate-ping" />
+        <div className="absolute top-20 left-10 w-40 h-40 bg-gradient-to-br from-blue-600 to-blue-800 opacity-20 rounded-full animate-pulse" />
+        <div className="absolute bottom-10 right-10 w-32 h-32 bg-gradient-to-br from-blue-500 to-blue-700 opacity-25 rounded-full animate-ping" />
       </div>
     </section>
   );

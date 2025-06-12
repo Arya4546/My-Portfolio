@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 text-sm text-white font-medium">
+        <div className="hidden md:flex items-center space-x-6 text-sm text-white font-medium">
           {navItems.map(({ id, label }) => (
             <Link
               key={id}
@@ -39,10 +39,22 @@ const Header = () => {
               {label}
             </Link>
           ))}
-        </nav>
+
+          {/* Resume Button */}
+          <a
+            href="/Arya_Deep_Singh_FullStackDeveloper_resume_2025.pdf"
+            download
+            className="ml-4 px-4 py-2 bg-regal-500 hover:bg-regal-600 text-white rounded transition duration-300 text-sm font-semibold"
+          >
+            Download Resume
+          </a>
+        </div>
 
         {/* Hamburger Icon */}
-        <div className="md:hidden text-white text-2xl cursor-pointer" onClick={toggleMenu}>
+        <div
+          className="md:hidden text-white text-2xl cursor-pointer"
+          onClick={toggleMenu}
+        >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </div>
       </div>
@@ -63,6 +75,15 @@ const Header = () => {
               {label}
             </Link>
           ))}
+
+          {/* Resume Button Mobile */}
+          <a
+            href="/AryaDeepSingh_Resume.pdf"
+            download
+            className="block w-full mt-2 text-center bg-regal-500 hover:bg-regal-600 text-white px-4 py-2 rounded font-semibold transition"
+          >
+            Download Resume
+          </a>
         </div>
       )}
     </header>

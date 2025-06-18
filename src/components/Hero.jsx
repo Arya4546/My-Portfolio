@@ -16,7 +16,7 @@ const Hero = () => {
             Hi, I'm <span className="text-blue-400">Arya Deep Singh</span>
           </h1>
           <p className="text-blue-300 text-lg md:text-xl max-w-xl">
-            Full Stack Web Developer | React • Node.js • SQL Server • Tailwind CSS | 3D Enthusiast
+            Full Stack Web Developer | React • Node.js • SQL Server • Tailwind CSS • MongoDB 
           </p>
         </motion.div>
         <motion.div

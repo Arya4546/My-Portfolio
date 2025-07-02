@@ -15,6 +15,7 @@ import project4 from "../assets/project4.jpg";
 import project5 from "../assets/project5.jpg";
 import project6 from "../assets/project6.jpg";
 import project7 from "../assets/project7.jpg"; 
+import project8 from "../assets/project8.png";
 
 const projects = [
    { title: "Let's Chat - Real Time Chat & Video Call",
@@ -50,6 +51,14 @@ const projects = [
     url: "https://vms-frontend-snowy.vercel.app",
     description:
       "A complete visitor management system with secure login, live logs, and admin controls using React, Node.js, Express.js, and SQL Server.",
+  },
+
+   { title: "DevHub—your mate for code, people & AI",
+    image: project8,
+    tech: [FaReact, FaNodeJs, FaDatabase],
+    url: "https://dev-hub-blush.vercel.app",
+    description:
+      "DevHub is a modern full-stack platform where developers can connect, share projects, post bugs, get AI suggestions, pair up, and chat in real time — all in one place, built using MERN, Tailwind CSS, and StreamAPI.",
   },
 
 ];

@@ -16,6 +16,7 @@ import project5 from "../assets/project5.jpg";
 import project6 from "../assets/project6.jpg";
 import project7 from "../assets/project7.jpg"; 
 import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
 
 const projects = [
    { title: "Let's Chat - Real Time Chat & Video Call",
@@ -26,6 +27,15 @@ const projects = [
       "Full-featured real-time chat app with message reactions, friend system, video calls, built using MERN, Tailwind CSS, and DaisyUI. Fully responsive across all devices.",
   },
  
+   
+  {
+    title: "Interview prep AI",
+    image: project9,
+    tech: [FaReact, FaNodeJs, FaDatabase],
+    url: "https://interview-prep-snowy.vercel.app/",
+    description:
+      " Built “Interview Prep AI”, a full-stack web application that uses Gemini API to generate role-based technical interview questions and answers.",
+  },
  
   {
     title: "School Management Software",
